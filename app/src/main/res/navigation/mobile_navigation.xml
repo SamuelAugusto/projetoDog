@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.projetodog.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_labrador"
+        android:name="com.example.projetodog.ui.labrador.LabradorFragment"
+        android:label="@string/menu_labrador"
+        tools:layout="@layout/fragment_labrador" />
+
+    <fragment
+        android:id="@+id/nav_pastorAlemao"
+        android:name="com.example.projetodog.ui.pastorAlemao.pastorAlemaoFragment"
+        android:label="@string/menu_pastorAlemao"
+        tools:layout="@layout/fragment_pastorAlemao" />
+
+    <fragment
+        android:id="@+id/nav_chowChow"
+        android:name="com.example.projetodog.ui.pastorAlemao.pastorAlemaoFragment"
+        android:label="@string/menu_chowChow"
+        tools:layout="@layout/fragment_pastorAlemao" />
+</navigation>
